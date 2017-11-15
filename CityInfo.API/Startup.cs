@@ -14,6 +14,7 @@ using NLog.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using CityInfo.API.Entities;
 using Microsoft.EntityFrameworkCore;
+using CityInfo.API.Services;
 
 namespace CityInfo.API
 {
@@ -58,6 +59,8 @@ namespace CityInfo.API
             //var connectionString = @"Server=(localdb)\mssqllocaldb;Database=CityInfoDB;Trusted_Connection=True;";
             var connectionString = Startup.Configuration["connectionStrings:cityInfoDBConnectionString"];
             services.AddDbContext<CityInfoContext>(o => o.UseSqlServer(connectionString));
+
+            services.AddScoped<ICityInfoRepository, CityInfoRepository>();
 
         }
 
