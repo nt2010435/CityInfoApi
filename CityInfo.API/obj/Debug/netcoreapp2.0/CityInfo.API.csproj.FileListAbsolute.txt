@@ -19,3 +19,4 @@ C:\Users\2010435\Source\Repos\CityInfoApi\CityInfo.API\obj\Debug\netcoreapp2.0\C
 C:\Users\2010435\Source\Repos\CityInfoApi\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.AssemblyInfo.cs
 C:\Users\2010435\Source\Repos\CityInfoApi\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.dll
 C:\Users\2010435\Source\Repos\CityInfoApi\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.pdb
+C:\Users\2010435\Source\Repos\CityInfoApi\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.csprojResolveAssemblyReference.cache
